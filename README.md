@@ -1,10 +1,12 @@
 # URL shortener API
 A simple URL shortener API.
 
-It allows to create shortened links to registered users
+It allows to create shortened links to registered users and uses JWT tokens for
+authentication.
 
 ## Users endpoints
 All users endpoints are prefixed with `/api/users`
+
 `POST /register`: creates a user
 ```json
 {
