@@ -26,5 +26,5 @@ async function getById(id) {
 }
 
 async function _delete(id) {
-  await Url.deleteOne({ id: id });
+  await Url.deleteOne({ id: id, owner: owner });
 }

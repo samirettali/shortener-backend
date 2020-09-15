@@ -32,7 +32,7 @@ function getById(req, res, next) {
 
 function _delete(req, res, next) {
   urlService
-    .delete(req.params.id)
+    .delete(req.params.id, req.user.sub)
     .then(() => res.json({}))
     .catch((err) => next(err));
 }
