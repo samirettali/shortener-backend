@@ -39,7 +39,7 @@ app.use(
 app.use(errorHandler);
 
 const port =
-  process.env.NODE_ENV === "production" ? process.env.port || 8000 : 80;
+  process.env.PORT ? process.env.PORT : 3000;
 
 app.listen(port, function () {
   console.log("Server listening on port " + port);
