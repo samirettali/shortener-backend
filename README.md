@@ -4,6 +4,8 @@ A simple URL shortener API.
 It allows to create shortened links to registered users and uses JWT tokens for
 authentication.
 
+It also keeps the count of how many time a URL is visited.
+
 ## Users endpoints
 All users endpoints are prefixed with `/api/users`
 
