@@ -6,6 +6,9 @@ authentication.
 
 It also keeps the count of how many time a URL is visited.
 
+There is a frontend for it
+[here](https://github.com/samirettali/shortener-frontend).
+
 ## Users endpoints
 All users endpoints are prefixed with `/api/users`
 
